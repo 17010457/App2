@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">App 2</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="mentor_app">Mentor App</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_now">Login Now</string>
+    <string name="register">Register</string>
+    <string name="discuss">Discuss</string>
+    <string name="create">Create</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="join">Join</string>
+    <string name="todo">TODO</string>
+    <string name="task">Task</string>
+
+</resources>
