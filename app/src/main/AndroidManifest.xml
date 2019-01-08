@@ -23,6 +23,7 @@
         <activity android:name=".Activity_Discuss"/>
         <activity android:name=".Activity_Profile"/>
         <activity android:name=".Activity_Settings"/>
+        <activity android:name=".Activity_Discussion"/>
     </application>
 
 </manifest>

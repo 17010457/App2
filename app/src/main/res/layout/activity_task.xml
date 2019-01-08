@@ -21,10 +21,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
+        <Button
+            android:id="@+id/btnRemovetask"
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:gravity="left|center"
+            android:paddingLeft="20dp"
+            android:text="Remove Task"
+            android:textColor="@color/black" />
         <Button
             android:id="@+id/btnAddtask"
-            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/transparent"
             android:gravity="right|center"

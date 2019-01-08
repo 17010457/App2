@@ -36,11 +36,17 @@ public class Activity_Task extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_task);
         Intent intentReceived = getIntent();
-
+        btnRemove = findViewById(R.id.btnRemovetask);
         btnAdd = findViewById(R.id.btnAddtask);
 
         initListItem();
 
+        btnRemove.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Activity_Task.this, "Removed task", Toast.LENGTH_SHORT).show();
+            }
+        });
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
