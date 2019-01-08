@@ -28,6 +28,46 @@ public class Activity_Index extends AppCompatActivity{
                 startActivity(intent);
             }
         });
+
+        cvCreate.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(Activity_Index.this,Activity_Create.class);
+                startActivity(intent);
+            }
+        });
+
+        cvTask.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(Activity_Index.this,Activity_Task.class);
+                startActivity(intent);
+            }
+        });
+
+        cvDiscuss.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(Activity_Index.this,Activity_Discuss.class);
+                startActivity(intent);
+            }
+        });
+
+        cvProfile.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(Activity_Index.this,Activity_Profile.class);
+                startActivity(intent);
+            }
+        });
+
+        cvSettings.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(Activity_Index.this,Activity_Settings.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }

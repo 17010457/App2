@@ -79,8 +79,10 @@
                         android:layout_marginTop="5dp"
                         android:background="@drawable/et_bg"
                         android:fontFamily="sans-serif-light"
+                        android:inputType="none"
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
+                        android:singleLine="true"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
                 </LinearLayout>
@@ -106,8 +108,10 @@
                         android:layout_marginTop="5dp"
                         android:background="@drawable/et_bg"
                         android:fontFamily="sans-serif-light"
+                        android:inputType="none"
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
+                        android:singleLine="true"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
                 </LinearLayout>
